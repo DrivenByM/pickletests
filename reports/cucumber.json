@@ -1,17 +1,17 @@
 [
   {
     "keyword": "Feature",
-    "name": "Google Search",
+    "name": "Admin Console",
     "line": 3,
-    "id": "google-search",
+    "id": "admin-console",
     "tags": [],
-    "uri": "features/google.feature",
+    "uri": "features/admin.feature",
     "elements": [
       {
-        "id": "google-search;searching-google",
+        "id": "admin-console;login-to-the-admin-console",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Searching Google",
+        "name": "Login to the admin console",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -19,39 +19,39 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "I open Google's search page",
+            "name": "I login to test admin",
             "match": {
-              "location": "features/step_definitions/google.js:7"
+              "location": "features/step_definitions/admin.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 21226
+              "duration": 6828
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "the title is \"Google\"",
+            "name": "I click on login button",
             "match": {
-              "location": "features/step_definitions/google.js:14"
+              "location": "features/step_definitions/admin.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 8
+              "duration": 2126
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 9,
-            "name": "the Google search form exists",
+            "name": "I login as operator",
             "match": {
-              "location": "features/step_definitions/google.js:18"
+              "location": "features/step_definitions/admin.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 34
+              "duration": 3540
             }
           }
         ]
