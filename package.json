@@ -1,31 +1,20 @@
 {
-  "name": "pickletests",
+  "name": "nightwatch_cucumber_voorbeeld",
   "version": "1.0.0",
-  "description": "Run test cucumber style",
+  "description": "Een project om te oefenen met testautomatisering in cucumber",
   "scripts": {
-    "start": "nightwatch",
+    "start": "./node_modules/.bin/nightwatch",
     "report": "node html_report.js",
     "test": "npm-run-all start report --continue-on-error"
   },
-  "author": "Ronak Chovatiya",
+  "author": "Erik Vosseberg",
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^2.34.0",
     "cucumber": "^3.2.0",
     "cucumber-html-reporter": "^3.0.4",
-    "jshint": "^2.9.5",
     "nightwatch": "^0.9.19",
     "nightwatch-cucumber": "^8.2.12",
     "npm-run-all": "^4.1.2"
-  },
-  "main": "globals.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DrivenByM/pickletests.git"
-  },
-  "bugs": {
-    "url": "https://github.com/DrivenByM/pickletests/issues"
-  },
-  "homepage": "https://github.com/DrivenByM/pickletests#readme"
+  }
 }

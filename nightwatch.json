@@ -9,12 +9,12 @@
     },
     "test_settings":{
        "default":{
-          "launch_url":"",
+          "launch_url":"http://drivenbymtest.com/",
           "selenium_port":9515,
           "selenium_host":"localhost",
           "default_path_prefix":"",
           "screenshots" : {
-            "enabled" : false,
+            "enabled" : true,
             "path" : "screenshots",
             "on_failure": true
           },
