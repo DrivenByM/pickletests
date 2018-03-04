@@ -5,6 +5,53 @@
     "line": 3,
     "id": "google-search",
     "tags": [],
+    "uri": "features/admin.feature",
+    "elements": [
+      {
+        "id": "google-search;searching-google",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Searching Google",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open Google's search page",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the title is \"Google\"",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the Google search form exists",
+            "result": {
+              "status": "ambiguous"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Google Search",
+    "line": 3,
+    "id": "google-search",
+    "tags": [],
     "uri": "features/google.feature",
     "elements": [
       {
@@ -20,12 +67,8 @@
             "keyword": "Given ",
             "line": 7,
             "name": "I open Google's search page",
-            "match": {
-              "location": "features/step_definitions/google.js:7"
-            },
             "result": {
-              "status": "passed",
-              "duration": 17014
+              "status": "ambiguous"
             }
           },
           {
@@ -33,12 +76,8 @@
             "keyword": "Then ",
             "line": 8,
             "name": "the title is \"Google\"",
-            "match": {
-              "location": "features/step_definitions/google.js:14"
-            },
             "result": {
-              "status": "passed",
-              "duration": 8
+              "status": "ambiguous"
             }
           },
           {
@@ -46,12 +85,8 @@
             "keyword": "And ",
             "line": 9,
             "name": "the Google search form exists",
-            "match": {
-              "location": "features/step_definitions/google.js:18"
-            },
             "result": {
-              "status": "passed",
-              "duration": 45
+              "status": "ambiguous"
             }
           }
         ]

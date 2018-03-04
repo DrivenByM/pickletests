@@ -3,8 +3,8 @@
 - Adding Cucumber style for proper test definition 
 - Give: I am 'customer'
 - When: I purchase a product 
-- Then: The order should show in Adming 
-- And: I verify it was delivered.  
+- Then: The order should show in Admin 
+- And: I verify it was delivered.
 
 ## How to run automated tests locally
 [Pre-requistes] :tada:
@@ -24,19 +24,57 @@
         - Checkout
         - Placing an order. 
 
-### Architecture
+### Architechture
 
-    - Test Environment
-[Admin Console Url] (https://testadmin.meteorapp.com/)
+> Admin Console - Driven Web app for business to place and order and keep track of delivery.
 
-    - Staging Environment
+   - Test Environment https://testadmin.meteorapp.com/
+        - Users
+            - SuperAdmin
+                admin@drivenbym.com
+            - Operator
+                operator@drivenbym.com
+            - Drivers
+                driver@drivenbym.com
+    - Staging Environment http://stagingadmin.drivenbym.com/
     - Production
+    - Github Repo
+        https://github.com/DrivenByM/admin-console
 
+> Reaction Ecommerce Store - Ecommerce site for user to go view products and place an order and the order will show in the admin console.
+    
+- Test Enviornment.
+        https://reaction.drivenbym.com/
+- Github Repo https://github.com/DrivenByM/reaction
+    
+> Devops Galaxy Meteor Hosting
+https://galaxy.meteor.com/drivenbym
 
+> GetSwift - Driver Tracking and Delivery serivce. 
 
+## End to End Regression Test Cases
+### Admin Console
 
-### End to End Test Cases
-
-    Admin - Dispensary Admin panel, Driven Web app for business to place and order and keep track of delivery. 
-
-1.   
+1. Login as Super Admin.
+2. Place a Manual Order 
+    - Phone
+		2012341465
+	- First Name 
+		Ronak
+	- Last Name
+		Chovatiya
+	- Address 
+		5125 convoy st
+	- City
+		San Diego 
+	- State 
+		Zip
+	- Total to be collected by Driver
+		$100
+    - Notes
+        Call my phone for pickup.
+3. View Manifest
+4. View Orders
+5. Logout
+6. Login as operator
+7. Login as Driver.
