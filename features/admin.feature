@@ -2,9 +2,9 @@
 
 Feature: Admin Console
 
-Scenario: Login to the admin console
+  Scenario: Login to the admin console
 
-  Given I login to test admin
-  Then I click on login button
-  Then I login as operator
-  
+    Given I login to test admin
+    Then I click on login button
+    Then I login as operator
+
